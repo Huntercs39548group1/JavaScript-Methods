@@ -1,16 +1,6 @@
 # JavaScript-Methods
 Assignment 2
-Assignment 2 - JavaScript Methods
-DUE DATE
-Due on Wednesday, 6/15, at 11:59 PM
-You can work in groups or individually. Maximum 4 students per group. Working in groups is strongly recommended and encouraged.
-HOW TO SUBMIT
-Blackboard: Submit (1) the link to your GitHub repository and (2) your group member names on Blackboard by 11:59 PM on the due day. Each student needs to submit the assignment individually on Blackboard—even when working in a group.
-GitHub: In the README section of GitHub repository, please list your group member names and GitHub usernames. 
-GRADING
-This assignment is worth 10% of your grade. 
-7% - Assignment functionality
-3% - Git version control, continuing the use of feature branch workflow. Create a feature branch for each function being implemented.
+
 GOAL
 To improve your understanding of JavaScript syntax, functions, and higher-order functions, in additional to a better understanding of JavaScript and Array methods.
 ASSIGNMENT
@@ -25,9 +15,11 @@ indexOf()
 lastIndexOf()
 Object.keys()
 Object.values()
+
 In this assignment, you will re-create these methods using JavaScript functions. For example, you will create your own "myMap" method corresponding to the native "map" method (see list below).
 Make sure to carefully understand what each native method is designed to do, and DO NOT use any of the respective native JavaScript methods to implement your solutions. However, if applicable, you can re-use your own methods after you have created them. 
 Strongly suggested: Use Mozilla Developer Network (MDN) Web Docs linked above to understand how each native JavaScript method works. Pay attention to what arguments they take as well as the return value.  
+
 Implement your solutions for the following JavaScript methods:
 map()
 Without using the native "Array.prototype.map" method of JavaScript, compose a function titled "myMap" that will take in an array of elements and execute a callback function on each of those elements. Syntax: myMap(callbackFn)
