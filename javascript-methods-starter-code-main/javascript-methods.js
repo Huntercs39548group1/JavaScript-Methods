@@ -46,4 +46,5 @@ Object.myKeys = function(object) {
 // VALUES //
 Object.myValues = function(object) {
   // Place your code here.
+  
 };
