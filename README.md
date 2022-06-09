@@ -12,6 +12,8 @@ GOAL
 To improve your understanding of JavaScript syntax, functions, and higher-order functions, in additional to a better understanding of JavaScript and Array methods.
 ASSIGNMENT
 Consider the following native JavaScript methods:
+
+
 **remit233** --> map()
 **dive0** --> filter()
 **skissele** --> some()
