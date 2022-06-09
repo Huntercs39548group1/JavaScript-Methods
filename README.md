@@ -15,14 +15,23 @@ Consider the following native JavaScript methods:
 
 
 **remit233** --> map()
+
 **dive0** --> filter()
+
 **skissele** --> some()
+
 **TJunior1323** --> every()
+
 **remit233** --> reduce()
+
 **dive0** --> includes()
+
 **skissele** --> indexOf()
+
 **TJunior1323** --> lastIndexOf()
+
 **remit233, dive0** --> Object.keys()
+
 **skissele, TJunior1323** --> Object.values()
 
 
