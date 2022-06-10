@@ -3,10 +3,10 @@ Assignment 2 - Progress Group
 
 Team members:
 
-Jinyi Tan - remit233
-Shi Wei Zheng - dive0
-Sergey Kisselev - skissele
-Junior Tenezaca - TJunior1323
+* Jinyi Tan - remit233
+* Shi Wei Zheng - dive0
+* Sergey Kisselev - skissele
+* Junior Tenezaca - TJunior1323
 
 GOAL
 To improve your understanding of JavaScript syntax, functions, and higher-order functions, in additional to a better understanding of JavaScript and Array methods.
