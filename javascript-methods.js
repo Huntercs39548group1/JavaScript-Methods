@@ -16,7 +16,19 @@ console.log(map1)
 // FILTER //
 Array.prototype.myFilter = function(callbackFn) {
   // Place your code here.
+  let newArray = [];
+  for (let i = 0; i < this.length; i++) {
+    if (callbackFn(this[i])) {
+      newArray.push(this[i], i, this);
+    }
+  }
+  return newArray;
 };
+/* testing
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.myFilter(word => word.length < 6);
+console.log(result);
+*/
 
 // SOME //
 Array.prototype.mySome = function(callbackFn) {
