@@ -38,8 +38,22 @@ Array.prototype.mySome = function(callbackFn) {
 // EVERY //
 Array.prototype.myEvery = function(callbackFn) {
   // Place your code here.
+  let temparray = [];
+  for (let i = 0; i < this.length ; i++) {
+    if (!callbackFn(this[i], i , this))
+    return false;
+  }
+  return true;
 };
 
+/* Testing 
+
+const array3 = [5,10,15,35];
+const LessThan30 = array3.myEvery(function(num){
+  return num < 30;
+});
+console.log(LessThan30);
+*/
 // REDUCE //
 Array.prototype.myReduce = function(callbackFn) {
   // Place your code here.
