@@ -33,7 +33,20 @@ console.log(result);
 // SOME //
 Array.prototype.mySome = function(callbackFn) {
   // Place your code here.
+  for (let i=0; i < this.length; i++){
+    if(callbackFn(this[i], i, this)){
+      return true;
+    }
+  }
+  return false;
 };
+/* testing
+const myAarray = [1,2,3,4,5];
+const isEven = myArray.mySome(function(even)){
+  return even % 2 === 0;
+});
+console.log(isEven);
+*/
 
 // EVERY //
 Array.prototype.myEvery = function(callbackFn) {
