@@ -1,11 +1,11 @@
 // MAP //
 Array.prototype.myMap = function(callbackFn) {
   // Place your code here.
-  let  temp = [];
+  let  newArray = [];
   for (let i = 0; i < this.length; i++){
-    temp.push(callbackFn(this[i], i, this));
+    newArray.push(callbackFn(this[i], i, this));
   }
-  return temp;
+  return newArray;
 };
 /*testing
 const array1 = [1,2,3];
@@ -69,13 +69,12 @@ console.log(LessThan30);
 // REDUCE //
 Array.prototype.myReduce = function(callbackFn) {
   // Place your code here.
-  let temp1 = [];
-  let temp = initialValue;
+  let newArray = initialValue;
   for (let i = 1; i < this.length; i++){
-    temp = callbackFn(this[i-1], this[i]);
-    this[i] = temp;
+    newArray = callbackFn(this[i-1], this[i]);
+    this[i] = newArray;
   }
-  return temp;
+  return newArray;
 };
 /* testing
 const array1 = [1, 2, 3, 4];
