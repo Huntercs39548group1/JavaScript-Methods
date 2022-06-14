@@ -126,7 +126,22 @@ console.log(myArray.indexOf(1));
 // LASTINDEXOF //
 Array.prototype.myLastIndexOf = function(searchElement) {
   // Place your code here.
+  let i = this.length - 1;
+  if(searchElement)
+      for (i ; i >= 0 ; i--) {
+        if (this[i] == searchElement)
+        return i;
+      }
+      return -1;
 };
+
+
+// Testing
+/*
+const names = ["Jack" , "Ivan" , "Mason" , "Ivan" , "Jay", "Jack" , "Mason"];
+const idx = names.myLastIndexOf("Mason");
+console.log(idx);
+*/
 
 // KEYS //
 Object.myKeys = function(object) {
