@@ -18,8 +18,8 @@ Array.prototype.myFilter = function(callbackFn) {
   // Place your code here.
   let newArray = [];
   for (let i = 0; i < this.length; i++) {
-    if (callbackFn(this[i])) {
-      newArray.push(this[i], i, this);
+    if (callbackFn(this[i], i, this)) {
+      newArray.push(this[i]);
     }
   }
   return newArray;
