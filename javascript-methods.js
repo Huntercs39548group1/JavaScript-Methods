@@ -40,12 +40,11 @@ Array.prototype.mySome = function(callbackFn) {
   }
   return false;
 };
-/* testing
-const myAarray = [1,2,3,4,5];
-const isEven = myArray.mySome(function(even)){
-  return even % 2 === 0;
-});
-console.log(isEven);
+/* Testing and comparing with array.some method
+const myArray = [1,2,3,4,5];
+const isEven = number => number % 2 === 0;
+console.log(myArray.mySome(isEven));
+console.log(myArray.some(isEven));
 */
 
 // EVERY //
