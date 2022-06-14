@@ -109,7 +109,19 @@ console.log(pets.myIncludes('bat'));
 // INDEXOF //
 Array.prototype.myIndexOf = function(searchElement) {
   // Place your code here.
+  for (let i=0; i < this.length; i++){
+    if (this[i] == searchElement){
+      return i;
+    }
+  }
+  return -1;
 };
+/*
+Testing and comparing with array.indexOf method
+const myArray = [1,2,3,4,5];
+console.log(myArray.myIndexOf(1));
+console.log(myArray.indexOf(1));
+*/
 
 // LASTINDEXOF //
 Array.prototype.myLastIndexOf = function(searchElement) {
