@@ -136,5 +136,20 @@ Object.myKeys = function(object) {
 // VALUES //
 Object.myValues = function(object) {
   // Place your code here.
-  
+  let myArray = [];
+  for (const value in object){        
+    myArray.push(object[value]);
+  }  
+  return myArray;
 };
+
+/* testing and comparing with Object.values method
+const myObject = {
+  a: 1,
+  b: "Something",
+  c: false,
+  d: null
+};
+console.log(Object.values(myObject));
+console.log(Object.myValues(myObject));  */ 
+
